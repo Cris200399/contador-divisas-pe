@@ -1,7 +1,8 @@
-import vue from '@vitejs/plugin-vue'
 import { defineConfig } from 'vite'
+import vue from '@vitejs.plugin-vue'
 
-// https://vite.dev/config/
+// Reemplaza 'contador-divisas-pe' por el nombre exacto de tu repositorio de GitHub
 export default defineConfig({
   plugins: [vue()],
+  base: '/contador-divisas-pe/',
 })
